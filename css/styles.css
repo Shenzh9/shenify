@@ -531,8 +531,8 @@ a {
 
 /* blocks 变量padding-vertical */
 .block {
-    --padding-vertical:6rem;
-    padding: var(--padding-vertical) 2rem;
+    padding:6rem 2rem;
+     
 }
 .block__header {
     text-align: center;
@@ -550,11 +550,11 @@ a {
 }
 
 .block--skewed-right {
-    padding-bottom: calc(--padding-vertical)+4rem;
+    padding-bottom: 10rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 90%);
 }
 .block--skewed-left {
-    padding-bottom: calc(--padding-vertical)+4rem;
+    padding-bottom: 10rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0 100%);
 }
 
