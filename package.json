@@ -2,7 +2,6 @@
   "name": "moshify-web",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "source": "src/index.html",
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
